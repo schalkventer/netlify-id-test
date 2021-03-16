@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import identity from 'netlify-identity-widget';
+
+identity.init();
+identity.open();
 
 function App() {
   return (
